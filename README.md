@@ -46,7 +46,4 @@ This project uses a custom-trained YOLOv5 model and Deep SORT to track players, 
 - The model can further be trained to detect the flags on the sidelines, which are a stationay object, and will improve the calculation for the rotation matrix, incase the ball is not detected for a long time. 
 - The code can be further improved to include the scaling factor. Using this and the task 1 code, we can effectively map all the players, whether inside or outside the field, and the data for velocity, distance covered can be collected. 
 
-## Requirements
 
-```bash
-pip install ultralytics opencv-python deep_sort_realtime scipy numpy
